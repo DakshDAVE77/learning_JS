@@ -10,3 +10,8 @@ let boollogin= Boolean(login);
 console.log(boollogin);
 // any string the answer of the boolean will be true;
 //for '' the answer would be false
+
+let sent=100;
+let checksent= String(sent);
+console.log(typeof checksent);
+console.log(checksent);
