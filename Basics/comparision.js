@@ -1,17 +1,21 @@
-let score='hitesh'
-let beANumber=Number(score)
+//Stack(Used for Primitive Datatypes)
+let myname='Daksh'
 
-console.log(typeof beANumber);//Type will be a number 
+let mysurname=myname
 
-console.log(beANumber);//But the value will return not a number
+mysurname='Milesh'
 
-let login='';
-let boollogin= Boolean(login);
-console.log(boollogin);
-// any string the answer of the boolean will be true;
-//for '' the answer would be false
+console.log(myname);
+console.log(mysurname);
 
-let sent=100;
-let checksent= String(sent);
-console.log(typeof checksent);
-console.log(checksent);
+//Heap(Used for Non Primitive Datatype)
+let human1={
+    email:'abc@gmail.com',
+    age:24,
+}
+
+let human2=human1
+human2.email='def@gmail.com'
+
+console.log(human1);
+console.log(human2);
