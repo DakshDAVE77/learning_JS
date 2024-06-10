@@ -13,4 +13,4 @@ console.log(user["email"]);//Correct way to access the datatype
 console.log(typeof user.newSym);
 console.log(typeof user["newSym"]);
 
-console.log(user.hasOwnProperty('is human'))// To check wheather the property is present or not
+console.log(user.hasOwnProperty('is human'))// To check wheather the property is present or not 
