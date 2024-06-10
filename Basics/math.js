@@ -10,3 +10,4 @@ console.log(Math.floor(Math.random() * (max-min+1)) + min);
 
 let mydate= new Date
 console.log(mydate.toString())
+
